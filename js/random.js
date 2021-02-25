@@ -14,6 +14,6 @@ export function random(min, max) {
  * @param {number} min 
  * @param {number} max 
  */
-export default function randomInt(min, max) {
+export  function randomInt(min, max) {
     return Math.round(Math.random() * (max - min) + min)
 }

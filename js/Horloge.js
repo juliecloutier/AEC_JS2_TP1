@@ -1,5 +1,5 @@
 
-import  randomInt from './random.js'
+import  {randomInt} from './random.js'
 
 
 
