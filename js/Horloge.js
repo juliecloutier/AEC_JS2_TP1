@@ -1,10 +1,7 @@
 
-// o	Pour un exemple de l'algorithme à utiliser afin d'animer les aiguilles, vous pouvez aller voir le fichier "algorithme-aiguilles.png"
 import  randomInt from './random.js'
 
-// setInterval chaque seconde
-// transform: rotate(240deg)
-// balise.style.transform = "rotate(Heure_converti_en degree + 'deg')"
+
 
 export default class Horloge{
     constructor(){
@@ -33,7 +30,6 @@ export default class Horloge{
         this.pourcentage_heures = (this.heures/12) *360  
         this.aiguille_heures = document.querySelector("#heures")
         this.aiguille_heures.style.transform = "rotate(" + this.pourcentage_heures + "deg)"
-        console.log(this.heures,this.pourcentage_heures)
         
     }
    
