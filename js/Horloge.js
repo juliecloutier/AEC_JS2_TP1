@@ -7,6 +7,7 @@ export default class Horloge{
     constructor(){
         this.ajoutBackgroundimage()
         this.couleurAiguille()
+        this.updateDate()
          // Doit changer toutes les secondes:
         setInterval(() =>{
             this.updateDate()
